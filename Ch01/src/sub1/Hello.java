@@ -22,5 +22,18 @@ public class Hello {
 		//개행처리
 		System.out.print("\nWelcome");
 		
+		System.out.println();
+		
+		int a = 3;
+		int b = 2;
+		
+		double answer = 0;
+		double result = 0;
+		
+		answer = (double)a/b;
+		result = answer * 1000;
+		
+		System.out.println(answer);
+		
 	}
 }

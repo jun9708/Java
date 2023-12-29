@@ -19,7 +19,7 @@ public class WhileTest {
 		int tot = 0;
 		int j = 1;
 		while( j <= 10) {
-			if(j % 2 ==1) {
+			if(j % 2 ==0) {
 				tot += j;
 			}
 			j++;

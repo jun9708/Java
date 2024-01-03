@@ -15,6 +15,8 @@ package sub3;
  * 
  */
 
+import sub4.StockAccount;
+
 class Increment{
 	
 	private int num1;

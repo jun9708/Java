@@ -12,3 +12,4 @@ public class Main1_3 {
 		System.out.println(a-b);
 	}
 }
+

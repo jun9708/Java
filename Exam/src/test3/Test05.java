@@ -29,14 +29,14 @@ class CarFactory {
 	public static CarFactory getInstance() {
 		return instance;
 	}
-	public static Vehicle createCar(String name, int price) {
+	public Vehicle createCar(String name, int price) {
 		return new Vehicle(name, price);
-	}
+	} //싱글톤 패턴
 }
 
 public class Test05 {
 	public static void main(String[] args) {
-		CarFactory factory = CarFactory.getInstance();
+		CarFactory factory = CarFactory.getInstance(); //Carfactory.getInstance로 직접 참조
 				
 		Vehicle avante = factory.createCar("아반테", 2500);
 		Vehicle sonat = factory.createCar("소나타", 3000);

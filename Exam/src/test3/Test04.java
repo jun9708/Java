@@ -6,7 +6,7 @@ package test3;
  */
 
 class Student {
-	static int studentId;
+	public static int studentId; //정적변수 -> Student외에 클래스에서 사용하기위해
 	private String studentName;
 	private String major;
 	private int grade;
@@ -24,7 +24,7 @@ class Student {
 		System.out.println("전공 : " +major);
 		System.out.println("학년 : " +grade);
 		System.out.println("=============");
-	}
+	} 
 	
 	
 }
@@ -32,7 +32,7 @@ class Student {
 
 public class Test04 {
 	public static void main(String[] args) {
-		Student.studentId = 20201000;
+		Student.studentId = 20201000; //Student 클래스로 직접 참조한다는 의미
 		
 		Student kim = new Student("김유신", "국문과", 1);
 		kim.studentInfo();

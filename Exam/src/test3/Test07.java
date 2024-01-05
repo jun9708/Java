@@ -56,7 +56,6 @@ class VipCustomer extends Customer {
 }
 
 
-
 public class Test07 {
 	public static void main(String[] args) {
 		Customer kim = new Customer(1001, "김춘추");

@@ -29,7 +29,7 @@ class Adder{
 	public static void add(Adder a2) {
 		a2.x += 10;
 	}
-	public static Adder add(Adder a3, int value) {
+	public static Adder add(Adder a3, int value) { //Adder의 생성자를 확인
 		return new Adder(value);
 	}
 	public void show() {

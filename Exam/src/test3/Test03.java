@@ -31,7 +31,7 @@ public class Test03{
 		Car sonata = null;
 		Car bmw = null;
 		
-		sonata = new Car("현대","소나타",3000);
+		sonata = new Car("현대","소나타",3000); //생성자 생성
 		bmw = new Car("bmw","520d",3000);
 		
 		sonata.drive();

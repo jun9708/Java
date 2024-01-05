@@ -12,7 +12,7 @@ class Product {
 		this.category = category;
 		this.price = price;
 	}
-	public void info() {}
+	public void info() {} //Television 클래스에 오버라이드가 있기떄문에 info가 정의되어 있어야함
 }
 
 class Television extends Product{
